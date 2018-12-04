@@ -53,6 +53,16 @@
             ],
             "source": "clean.R",
             "target": "colormap4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "latlon",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "latlon.png"
         }
     ],
     "nodes": [
@@ -80,6 +90,6 @@
             "name": "latlon.png"
         }
     ],
-    "updated_at": "2018-12-04 00:41:22",
+    "updated_at": "2018-12-04 00:41:39",
     "url": "https://github.com/fall2018-wallace/hw_maps"
 }
