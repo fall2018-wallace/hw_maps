@@ -17,3 +17,4 @@ colnames(dfStates)<- c("Statename", "population", "popOver18", "percentOver18")#
   return(dfStates) #function body
 }
 df <- cleandataframe(dfStates)
+df
