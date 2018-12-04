@@ -55,8 +55,11 @@
         },
         {
             "name": "colormap3.png"
+        },
+        {
+            "name": "colormap4.png"
         }
     ],
-    "updated_at": "2018-12-04 00:39:38",
+    "updated_at": "2018-12-04 00:39:51",
     "url": "https://github.com/fall2018-wallace/hw_maps"
 }
