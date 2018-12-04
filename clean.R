@@ -55,5 +55,5 @@ colormap3<- ggplot(merge_df, aes(map_id=Statename)) + geom_map(map=us, aes(fill=
 #6) only show the states in the north east
 latlon <- geocode(source = "dsk","nyc,new york,ny")
 latlon
-colormap4 <- color_map3+ xlim(-84,-64)+ ylim(30,50)
+colormap4 <- colormap3+ xlim(-84,-64)+ ylim(30,50)
 
