@@ -3,6 +3,7 @@ library(maps)
 library(ggplot2)
 library(ggmap)
 dfStates <- raw_data
+dfStates
 cleandataframe <- function() #function declaration
 {
 dfStates <- dfStates[-1,]#removes the summary
