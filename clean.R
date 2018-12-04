@@ -27,3 +27,10 @@ arrests
 # Create a merge dataFrame
 merge_df <- merge(arrests,df,by="Statename")
 merge_df
+
+# 2)	Add the area of each state, and the center of each state, to the merged dataframe,
+#   using the 'state.center', 'state.center' and 'state.name' vectors
+Statename <- state.name
+Statearea <- state.area
+Statecenter <- state.center
+newFrame<-data.frame(Statename,Statearea,Statecenter)
