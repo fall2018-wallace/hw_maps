@@ -34,3 +34,6 @@ Statename <- state.name
 Statearea <- state.area
 Statecenter <- state.center
 newFrame<-data.frame(Statename,Statearea,Statecenter)
+
+merge_df<-merge(merge_df,newFrame)
+merge_df
