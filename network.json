@@ -58,8 +58,11 @@
         },
         {
             "name": "colormap4.png"
+        },
+        {
+            "name": "latlon.png"
         }
     ],
-    "updated_at": "2018-12-04 00:39:51",
+    "updated_at": "2018-12-04 00:40:26",
     "url": "https://github.com/fall2018-wallace/hw_maps"
 }
