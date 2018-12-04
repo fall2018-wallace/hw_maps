@@ -17,16 +17,6 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [
-                {
                     "output": "colormap",
                     "type": "png"
                 }
@@ -45,9 +35,6 @@
             "task_status": "in progress"
         },
         {
-            "name": "data.csv"
-        },
-        {
             "name": "colormap.png"
         },
         {
@@ -63,6 +50,6 @@
             "name": "latlon.png"
         }
     ],
-    "updated_at": "2018-12-04 00:40:26",
+    "updated_at": "2018-12-04 00:40:37",
     "url": "https://github.com/fall2018-wallace/hw_maps"
 }
