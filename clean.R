@@ -2,5 +2,8 @@
 library(maps)
 library(ggplot2)
 library(ggmap)
-clean_data <- raw_data
-clean_data
+dfStates <- raw_data
+cleandataframe <- function() #function declaration
+{
+  return(dfStates) #function body
+}
