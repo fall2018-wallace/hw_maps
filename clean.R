@@ -40,3 +40,21 @@ merge_df
 
 merge_df$Statename <- tolower(merge_df$Statename)
 us<-map_data("state")
+
+#3) color coded map, based on the area of the state 
+color_map<- ggplot(merge_df, aes(map_id=Statename)) + geom_map(map=us, aes(fill=state.area)) + expand_limits(x= us$long, y= us$lat) + coord_map()+ ggtitle(" Map of USA")
+color_map
+
+#4) color coded map, based on the murderrate of the state 
+color_map2<- ggplot(merge_df, aes(map_id=Statename)) + geom_map(map=us, aes(fill=Murder)) + expand_limits(x= us$long, y= us$lat) + coord_map()+ ggtitle(" State population Map of USA") 
+color_map2
+
+#5) showing population as circle per state
+color_map3<- ggplot(merge_df, aes(map_id=Statename)) + geom_map(map=us, aes(fill=state.area)) + expand_limits(x= us$long, y= us$lat) + coord_map()+ ggtitle(" Map of USA") + geom_point(aes(x = x, y = y, size=population))
+color_map3
+
+#6) only show the states in the north east
+latlon <- geocode(source = "dsk","nyc,new york,ny")
+latlon
+color_map4 <- color_map3+ xlim(-84,-64)+ ylim(30,50)
+color_map4
