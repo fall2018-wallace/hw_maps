@@ -4,7 +4,7 @@ library(ggplot2)
 library(ggmap)
 dfStates <- raw_data
 dfStates
-cleandataframe <- function() #function declaration
+cleandataframe <- function(dfStates) #function declaration
 {
 dfStates <- dfStates[-1,]#removes the summary
 dfStates <- dfStates[-52,]#removes puerto rico
