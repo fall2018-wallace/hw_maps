@@ -18,3 +18,7 @@ colnames(dfStates)<- c("Statename", "population", "popOver18", "percentOver18")#
 }
 df <- cleandataframe(dfStates)
 df
+
+arrests <- USArrests
+arrests$Statename <- rownames(arrests)
+arrests
