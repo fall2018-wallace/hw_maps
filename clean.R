@@ -2,6 +2,7 @@
 library(maps)
 library(ggplot2)
 library(ggmap)
+
 dfStates <- raw_data
 dfStates
 cleandataframe <- function(dfStates) #function declaration
