@@ -22,3 +22,7 @@ df
 arrests <- USArrests
 arrests$Statename <- rownames(arrests)
 arrests
+
+# Create a merge dataFrame
+merge_df <- merge(arrests,df,by="Statename")
+merge_df
