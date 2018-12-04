@@ -37,3 +37,6 @@ newFrame<-data.frame(Statename,Statearea,Statecenter)
 
 merge_df<-merge(merge_df,newFrame)
 merge_df
+
+merge_df$Statename <- tolower(merge_df$Statename)
+us<-map_data("state")
