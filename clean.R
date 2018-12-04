@@ -16,3 +16,4 @@ dfStates <- dfStates[,-1]#removes the unwanted columns
 colnames(dfStates)<- c("Statename", "population", "popOver18", "percentOver18")#renames the columns
   return(dfStates) #function body
 }
+df <- cleandataframe(dfStates)
