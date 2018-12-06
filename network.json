@@ -12,7 +12,7 @@
                 }
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "clean.R"
+            "target": "clean_and_plot.R"
         },
         {
             "ports": [
@@ -21,7 +21,7 @@
                     "type": "png"
                 }
             ],
-            "source": "clean.R",
+            "source": "clean_and_plot.R",
             "target": "colormap.png"
         },
         {
@@ -31,7 +31,7 @@
                     "type": "png"
                 }
             ],
-            "source": "clean.R",
+            "source": "clean_and_plot.R",
             "target": "colormap2.png"
         },
         {
@@ -41,7 +41,7 @@
                     "type": "png"
                 }
             ],
-            "source": "clean.R",
+            "source": "clean_and_plot.R",
             "target": "colormap3.png"
         },
         {
@@ -51,7 +51,7 @@
                     "type": "png"
                 }
             ],
-            "source": "clean.R",
+            "source": "clean_and_plot.R",
             "target": "colormap4.png"
         },
         {
@@ -61,18 +61,13 @@
                     "type": "png"
                 }
             ],
-            "source": "clean.R",
+            "source": "clean_and_plot.R",
             "target": "latlon.png"
         }
     ],
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
-        },
-        {
-            "assigned_to": "hmehta",
-            "name": "clean.R",
-            "task_status": "in progress"
         },
         {
             "name": "colormap.png"
@@ -88,8 +83,14 @@
         },
         {
             "name": "latlon.png"
+        },
+        {
+            "assigned_to": "hmehta",
+            "desc": "",
+            "name": "clean_and_plot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-04 00:41:39",
+    "updated_at": "2018-12-06 04:37:56",
     "url": "https://github.com/fall2018-wallace/hw_maps"
 }
